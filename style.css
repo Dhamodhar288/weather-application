@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.weather-card{
+    background-image: url("https://t3.ftcdn.net/jpg/10/57/45/50/240_F_1057455057_CNoL39ugMQXc4I1XYun3eyI67xkBLxax.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(10, 17, 19);
+    height: 10vh;
+    width: 35vw;
+    margin: 40px;
+    align-items: center;
+    padding-top: 30px;
+    background-image: linear-gradient(#085078, #85D8CE);
+    
+}
+.search{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    color:rgb(34, 39, 39);
+    font-weight: bold;
+    height: 6vh;
+    width: 22vw;
+    margin: 10px;
+    border: 0px;
+    border-radius: 25px;
+}
+#search-btn{
+    width: 3vw;
+    height: 6vh;
+    border-radius: 25px;
+    background-color: aliceblue;
+    border: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+}
+.icon{
+    height: 3vh;
+}
+.search-bar{
+    display: flex;
+}
+.weatherimg{
+    height: 35vh;
+    margin-left: 50px;
+}
+
+.temp{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.city{
+    color: #ffffff;
+    text-align: center;
+}
+.wea-icon{
+    height: 5vh;
+    margin-right: 10px;
+}
+
+.humidity{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+p{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+.weather-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wind{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: -5px;
+    
+}
+.col{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+.col2{
+    display: flex;
+    margin-top: 30px;
+    margin-left : 100px;
+}
+.error{
+    margin-top: 20px;
+}
+.error-msg{
+    border-radius: 20px;
+}
+.error{
+    display: none;
+}
+/* .weather-condition{
+    display: ;   
+} */
